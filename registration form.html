@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Student Registration Form</title>
+</head>
+<body>
+	<h1 style="color:red;">Student Registration Form</h1>
+	<table cellspacing="10">
+		<form>
+			<tr>
+				<th>RegNo</th>
+				<td>
+					<input type="text" name="regno" value="Enter your RegNo">
+				</td>
+			</tr>
+			<tr align="left">
+				<th> Name</th>
+				<td>
+					<input type="text" name="name" value="Enter your Name">
+				</td>
+			</tr>
+			<tr align="left">
+			    <th>Father Name</th>
+			    <td>
+			        <input type="text" name="fname" value="Enter your Father Name">
+			    </td>
+			</tr>
+			<tr align="left">
+				<th>Gender</th>
+				<td>
+					<input type="radio" name="gender" value="Male">Male
+					<input type="radio" name="gender" value="Female">Female
+				</td>
+			</tr>
+			<tr align="left">
+				<th>Date Of Birth</th>
+				<td>
+					<input type="Date" name="dob">
+				</td>
+			</tr>
+			<tr align="left">
+				<th>Languages Known</th>
+				<td>
+					<select>
+					<option value=-1 selected>select option</option>
+					<option value="AI&DS">AI&DS</option>
+					<option value="AL&ML">AI&ML</option>
+					<option value="CSE">CSE</option>
+					<option value="IT">IT</option>
+					<option value="ECE">ECE</option>
+					<option value="EEE">EEE</option>
+					<option value="CIVIL">CIVIL</option>
+					<option value="MECH">MECH</option>
+				</select>
+			</td>
+		</tr>
+		<tr align="left">
+			<th>Address</th>
+			<td>
+				<textarea rows="8" cols="20">Enter your Address</textarea>
+			</td>
+		</tr>
+        <tr align="center">
+        	<td colspan="2">
+        		<input type="Submit" name="Submit">
+        		<input type="Reset"  name="Reset">
+        	</td>
+        </tr>
+		</form>
+	</table>
+</body>
+</html>					
