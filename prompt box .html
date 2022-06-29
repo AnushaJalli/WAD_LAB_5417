@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Java Script Demo1</title>
+	<script type="text/javascript">
+		function show_alert(){
+			alert("HELLO WELCOME TO CLASS");
+		}
+		function showPrompt(){
+			name = Prompt("Enter your name: ");
+			result=Confirm("Your Name is"+name);
+			if(result!=""){
+				document.write("Your Entered Name is"+name);
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Alert Demo1</h1>
+	<input type="button" name="b1" value="Click Here" onClick="show_alert()">
+    <h1>Confirm Demo</h1>
+    <input type="button" value="Confirm"><br><Br>
+    <h1>Prompt</h1>
+    <input type="button" value="Enter name" onClick="showPrompt()">
+</body>
+</html>
